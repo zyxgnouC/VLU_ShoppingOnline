@@ -1,0 +1,106 @@
+.Newthing {
+  padding: 20px 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .Center {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #687077;
+    font-weight: 400;
+    .test {
+      display: flex;
+      align-items: center;
+    }
+    .Left {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      padding-right: 20px;
+    }
+    .Middle {
+      flex: 1 1;
+      color: #86898c;
+      overflow: hidden;
+      padding: 0 20px;
+      position: relative;
+      &::before {
+        content: "";
+        width: 1px;
+        height: 44px;
+        background-color: #dde1e6;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+      &:hover {
+        color: #ffa902;
+        cursor: pointer;
+      }
+    }
+    .Right {
+      cursor: pointer;
+      width: 100px;
+      p {
+        display: flex;
+        align-items: center;
+        margin: 0;
+        flex: 3 1;
+        font-size: 15px;
+        color: #c22026;
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .Newthing {
+    .Center {
+      .test {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-start;
+        .Middle {
+          padding: 0;
+          border-top: 0.5px solid #86898c;
+          &::before {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 650px) {
+  .Newthing {
+    .Center {
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: baseline;
+      gap: 10px;
+      .test {
+        width: 100%;
+        gap: 5px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-start;
+        .Middle {
+          padding: 0;
+          border-top: 0.5px solid #86898c;
+          &::before {
+            display: none;
+          }
+          span {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="yahoo-shopping"> 
+    <g id="Home" transform="translate(-21 -483)">
+      <g id="Rectangle_379" data-name="Rectangle 379" transform="translate(21 483)" fill="rgba(255,255,255,0.8)" stroke="#707070" stroke-width="1" opacity="0">
+        <rect width="16" height="16" stroke="none"></rect>
+        <rect x="0.5" y="0.5" width="15" height="15" fill="none"></rect>
+      </g>
+      <g id="Group_1569" data-name="Group 1569" transform="translate(21 484)" clip-path="url(#clip-path)">
+        <path id="Path_1023" data-name="Path 1023" d="M4.544,13.428a1.2,1.2,0,1,0,1.2,1.2,1.2,1.2,0,0,0-1.2-1.2m0,1.691a.495.495,0,1,1,.494-.494.494.494,0,0,1-.494.494" transform="translate(-0.232 -0.932)" fill="#373538"></path>
+        <path id="Path_1024" data-name="Path 1024" d="M10.312,13.428a1.2,1.2,0,1,0,1.2,1.2,1.2,1.2,0,0,0-1.2-1.2m0,1.691a.495.495,0,1,1,.5-.494.494.494,0,0,1-.5.494" transform="translate(-0.633 -0.932)" fill="#373538"></path>
+        <rect id="Rectangle_404" data-name="Rectangle 404" width="2.24" height="1.09" transform="translate(12.332 0.074)" fill="#dedede"></rect>
+        <rect id="Rectangle_405" data-name="Rectangle 405" width="10.234" height="1.09" transform="translate(9.64 9.946) rotate(-74.758)" fill="#dedede"></rect>
+        <rect id="Rectangle_406" data-name="Rectangle 406" width="1.09" height="1.724" transform="translate(9.64 9.602) rotate(-15.236)" fill="#dedede"></rect>
+        <path id="Path_1025" data-name="Path 1025" d="M10.367,11.264H7.048a1.031,1.031,0,0,1-1.032-1.031h4.351Z" transform="translate(-0.418 -0.711)" fill="#dedede"></path>
+        <path id="Path_1026" data-name="Path 1026" d="M11.449,13.695H3.281a.577.577,0,0,1,0-1.154h8.168Z" transform="translate(-0.188 -0.871)" fill="#dedede"></path>
+        <path id="Path_1027" data-name="Path 1027" d="M11.9,11.8a2.239,2.239,0,0,1,.117.69H10.877s.04-.311-.031-.4A10.872,10.872,0,0,1,11.9,11.8" transform="translate(-0.753 -0.819)" fill="#dedede"></path>
+        <path id="Path_1028" data-name="Path 1028" d="M11.43,3.549H.147A.147.147,0,0,1,0,3.4V2.607a.147.147,0,0,1,.147-.146H11.726Z" transform="translate(0 -0.171)" fill="#ffba3b"></path>
+        <path id="Path_1029" data-name="Path 1029" d="M.656,3.63,1.9,9.478a.3.3,0,0,0,.285.233L9.8,9.774,11.476,3.63ZM4.321,7.37a.147.147,0,0,1-.147.147H3.826a.147.147,0,0,1-.147-.147V5.553a.147.147,0,0,1,.147-.147h.348a.147.147,0,0,1,.147.147Zm2.115,0a.147.147,0,0,1-.146.147H5.942A.147.147,0,0,1,5.8,7.37V5.553a.147.147,0,0,1,.146-.147h.348a.147.147,0,0,1,.146.147Zm2.144,0a.147.147,0,0,1-.147.147H8.086a.147.147,0,0,1-.147-.147V5.553a.147.147,0,0,1,.147-.147h.347a.147.147,0,0,1,.147.147Z" transform="translate(-0.046 -0.252)" fill="#feaf1e"></path>
+        <path id="Path_1030" data-name="Path 1030" d="M16.287,1.466H14.675V0h1.612a.733.733,0,0,1,0,1.466" transform="translate(-1.019)" fill="#ffad1b"></path>
+      </g>
+    </g>
+  </svg>

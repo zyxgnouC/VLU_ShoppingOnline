@@ -1,0 +1,198 @@
+.slide {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // padding: 100px 0 100px 0;
+    // background-color: #6c757d;
+    text-align: center !important;
+    width: 100%;
+    .content-slide {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        gap: 10px;
+        .test{
+            width: 60%;
+            height: 100%;
+            .content-flex {
+                width: 100%; 
+                img {
+                    width: 100%;
+                    object-fit: cover;
+                    border-radius: 5px;
+                }
+            }
+            
+        }
+        .content-flex {
+            .slick-slide {
+                
+            }
+        }
+        .content-flex-2 {
+            width: 100%;
+            height: 100%;
+            img {
+                width: 100%;
+                height: 105%;
+                border-radius: 5px;
+                
+            }
+            display: flex;
+            flex-direction: column;
+            gap:5px;
+        }
+
+        // display: grid;
+        
+    }
+}
+.img {
+    // max-width: 540px;
+    // max-height: 405px;
+    display: flex !important;
+    z-index: 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    // height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-attachment: fixed;
+    border-radius: 5px;
+}
+
+.slick-arrow {
+    display: none !important;
+    transition: all 0.3s;
+    transition: transform .3s, opacity .3s, box-shadow .3s, -webkit-transform .3s, -webkit-box-shadow .3s;
+    /* margin: 10px; */
+    width: 30px;
+    height: 30px; 
+    position: absolute;
+    top: 60%;
+    margin-top: 20px;
+    z-index: 20; 
+    /* position: fixed; */
+}
+// .slick-slider   {
+//     &:hover > .slick-arrow {
+//         display: block !important;
+        
+//     }  
+// }
+.slick-arrow::before {
+    font-size: 30px;
+    color: #6aa6be;
+    // background-color: none;
+}
+
+.slick-dots {
+    display: none
+}
+.slick-dots button {
+    cursor: pointer;
+    
+}
+.slick-next  {
+    right: 8%;
+    top: 43%;
+    
+}
+.slick-prev  {
+    left: 8%;
+    top: 43%;
+}
+
+/* custom dot slide */
+.slick-dots li {
+    // position: absolute;
+    // bottom: 25%;
+    // right: 15%;
+    // display: flex !important;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    top: -35px;
+    
+}
+.slick-dots li button {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 0;
+    padding: 2px;
+    border: 3px solid #b1d5e2;
+}
+.slick-dots li button::before {
+    content: none;
+}
+.slick-dots .slick-active button{
+    background-color: #b1d5e2;
+}
+@media screen and (max-width: 450px) {
+    .slick-arrow {
+        display: none !important;
+    }
+    .slick-slider   {
+        &:hover > .slick-arrow {
+            display: none !important;
+        }  
+    }
+}
+@media screen and (max-width: 730px) {
+    .slide {
+       
+        .content-slide {
+            flex-direction: column;
+            .test{
+                width: 100%;
+                height: 100%;
+                .content-flex {
+                    width: 100%; 
+
+                    img {
+                        width: 100%;
+                        object-fit: cover;
+                        border-radius: 5px;
+                    }
+                }
+                
+            }
+            
+            .content-flex-2 {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: row;
+                img {
+                    width: 50%;
+                    height: 105%;
+                    border-radius: 5px;
+                    
+                }
+                
+                gap:5px;
+            }
+    
+            // display: grid;
+            
+        }
+    }
+    .img {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .img {
+        width: 100%;
+    }
+}

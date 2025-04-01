@@ -1,0 +1,135 @@
+
+.Profile {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    .ProfileCenter {
+        width: 100%;
+        display: flex;
+        gap: 20px;
+        
+        .ProfileUser {
+            
+            width: 100%;
+            max-width: 180px;
+            .ImgUser {
+                border-bottom: 1px solid #efefef;
+                padding: 15px 0;
+                display: flex;
+                gap: 10px;
+                img {
+                    
+                    height: 50px;
+                    object-fit: cover;
+                    border-radius: 50%;
+                    width: 50px;
+                }
+                .ImgUser-name {
+                    p {
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        min-height: 1rem;
+                        font-weight: 600;
+                        margin-bottom: 5px;
+                        color: #333;
+                    }
+                    .ImgUser-name-update {
+                        display: flex;
+                        align-items: center;
+                        gap: 2px;
+                    }
+                }
+            }
+            .User-setting {
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                margin: 27px 0 0;
+                cursor: pointer;
+                .User-setting-item {
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+                    padding: 10px 0;
+                    a {
+                        display: flex;
+                        align-items: center;
+                        text-decoration: none;
+                        gap: 5px;
+                        color: #333;
+                    }
+                    p {
+                        margin: 0;
+                    }
+                    
+                    
+                }
+                .User-setting-item-special {
+                    padding: 4px 0;
+                    .User-profile-small {
+                        width: 100%;
+                        margin-left: 30px;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 4px;
+                    }
+                }
+            }
+            
+            
+        }
+        .ProfileForm {
+            width: 100%;
+            background-color: white;
+
+        }
+    }
+}
+
+@media (max-width: 990px) {
+    .Profile {
+
+        .ProfileCenter {
+            width: 100%;
+
+            display: block;
+            gap: 20px;
+            
+            .ProfileUser {
+                max-width: none;
+                margin-bottom: 50px;
+                padding: 10px;
+                background-color: white;
+                }
+                .User-setting {
+                    flex-direction: row !important;
+                    justify-content: space-around;
+                    .User-setting-item {
+                        svg {
+                            font-size: 30px;
+                        }
+                        p {
+                           display: none;
+                        }
+                        
+                        
+                    }
+                    .User-setting-item-special {
+                       
+                        .User-profile-small {
+                        
+                        }
+                    }
+                }
+                
+                
+            }
+            .ProfileForm {
+             
+            }
+        }
+    
+}

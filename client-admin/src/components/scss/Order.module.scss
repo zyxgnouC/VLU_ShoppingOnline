@@ -1,0 +1,111 @@
+.Order {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  .center-container-order {
+    padding-top: 20px;
+
+    display: flex;
+    // flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+    .Order-customer {
+      width: 10%;
+      // display: flex;
+      gap: 10px;
+      .Order-customer-all {
+        cursor: pointer;
+      }
+    }
+    .Order-customer-table {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      flex-direction: column;
+      gap: 20px;
+      .table {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        overflow-y: scroll;
+        max-height: 400px;
+        display: block;
+        max-width: none;
+        td,
+        th {
+          padding: 5px;
+          width: 14%;
+        }
+        th.fixed {
+          top: 0;
+          z-index: 2;
+          position: sticky;
+          background-color: rgb(222, 225, 225);
+        }
+        tr {
+          &:hover {
+            cursor: pointer;
+            background-color: rgb(228, 229, 230);
+          }
+          border-bottom: 1px solid rgb(152, 147, 147);
+          border-right: 1px solid rgb(152, 147, 147);
+        }
+        .header {
+          background-color: #333;
+          color: white; 
+          &:hover {
+            cursor: pointer;
+            background-color: #333;
+            color: white;
+          }
+        }
+      }
+      .Order-customer-table-detail {
+        padding: 30px 0;
+        table {
+          td,
+          th {
+            padding: 5px;
+            width: 14%;
+          }
+          th.fixed {
+            top: 0;
+            z-index: 2;
+            position: sticky;
+            background-color: rgb(222, 225, 225);
+          }
+          tr {
+            &:hover {
+              cursor: pointer;
+              background-color: rgb(228, 229, 230);
+            }
+            border-bottom: 1px solid rgb(152, 147, 147);
+            border-right: 1px solid rgb(152, 147, 147);
+          }
+          .header {
+            background-color: #333;
+            color: white;
+            &:hover {
+              cursor: pointer;
+              background-color: #333;
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+label,
+input {
+  cursor: pointer;
+  // margin: 0 3px ;
+}
+input {
+  margin-right: 4px;
+}

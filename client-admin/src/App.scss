@@ -1,0 +1,275 @@
+.body-customer {
+  // width: 1150px;
+  // height: fit-content;
+  // margin: 0px auto;
+}
+
+div.inline {
+  display: inline-block;
+}
+figure.caption-right {
+  display: flex;
+  align-items: center;
+}
+.align-center {
+  width: fit-content;
+  margin: 0px auto;
+}
+.align-valign-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0px 20px 20px 20px;
+  border: 1px solid black;
+}
+.text-center {
+  text-align: center;
+}
+span.link {
+  padding: 5px;
+  cursor: pointer;
+  color: black;
+  // text-decoration: underline;
+}
+span {
+  color: rgb(110, 233, 110);
+  padding: 5px;
+  cursor: pointer;
+}
+
+div.border-bottom {
+  border-bottom: 1px solid black;
+  padding: 10px 0px 10px 0px;
+}
+div.float-left {
+  float: left;
+}
+div.float-right {
+  float: right;
+}
+div.float-clear {
+  clear: both;
+}
+
+form.search {
+  margin: 0px;
+}
+input.keyword {
+  width: 110px;
+}
+input[type=submit] {
+  margin-top: 5px;
+  border: none;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.5em 1em;
+  text-align: center;
+  color: #ffffff;
+  background-color: #695cfe;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.datatable {
+  text-align: center;
+  border-collapse: collapse;
+}
+
+tr:first-child.datatable {
+  background-color: #333;
+  color: white;
+  letter-spacing: 2%;
+}
+
+tr:not(:first-child):nth-child(even).datatable {
+  background-color: #eee;
+}
+
+tr:not(:first-child):nth-child(odd).datatable {
+  background-color: #fff;
+}
+
+tr:not(:first-child):hover.datatable {
+  /* background-color: #dcfcfc; */
+
+  cursor: pointer;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+ input, optgroup, select, textarea {
+   margin: 0; 
+   font-family: none; 
+   font-size: 16px; 
+    line-height:normal; 
+}
+button {
+  width: 50px;
+  height: 20px;
+}
+.body-admin {
+  // display: flex;
+  align-items: center;
+  justify-content: center;
+  // flex-direction: column;
+  width: 100%;
+}
+.centerContainer {
+  width: 100%;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+}
+.content {
+  display: flex;
+  // align-items: center;
+}
+.active {
+  div {
+    background-color: #695cfe;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #f6f5ff !important;
+  }
+}
+
+@media (min-width: 320px) {
+  .container {
+    max-width: 310px;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 374px) {
+  .container {
+    max-width: 354px;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 410px) {
+  .container {
+    max-width: 390px;
+    justify-content: center;
+  }
+}
+@media (min-width: 460px) {
+  .container {
+    max-width: 440px;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 500px) {
+  .container {
+    max-width: 480px;
+    justify-content: center;
+  }
+}
+@media (min-width: 540px) {
+  .container {
+    max-width: 520px;
+    justify-content: center;
+  }
+}
+@media (min-width: 550px) {
+  .container {
+    max-width: 540px;
+    justify-content: center;
+  }
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 570px;
+    justify-content: center;
+  }
+}
+@media (min-width: 730px) {
+  .container {
+    max-width: 710px;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 767px) {
+  .container {
+    max-width: 745px;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 748px;
+    justify-content: center;
+  }
+}
+@media (min-width: 800px) {
+  .container {
+    justify-content: center;
+    max-width: 780px;
+  }
+}
+@media (min-width: 900px) {
+  .container {
+    justify-content: center;
+    max-width: 880px;
+  }
+}
+@media (min-width: 950px) {
+  .container {
+    max-width: 940px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 980px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1000px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .container {
+    max-width: 1050px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1100px;
+  }
+}
+@media (min-width: 1300px) {
+  .container {
+    max-width: 1250px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1350px;
+  }
+}
+@media (min-width: 1500px) {
+  .container {
+    max-width: 1450px;
+  }
+}
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1550px;
+  }
+}
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

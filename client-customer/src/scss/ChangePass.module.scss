@@ -1,0 +1,72 @@
+.change-pass {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+//   align-items: center;
+  gap: 20px;
+  padding: 20px;
+  .change-pass-group {
+    padding: 10px;
+    width: 100%;
+    // display: flex;
+    // align-items: center;
+    // justify-content: flex-start;
+    // flex-direction: column;
+    display: grid;
+    gap: 10px;
+    label {
+      text-align: left;
+    }
+    input {
+        width: 100%;
+        max-width: 250px;
+        min-width:  220px;
+      border: 1px solid #dbd8d8;
+    }
+    
+  }
+  .change-pass-title {
+    border-bottom: 1px solid #dbd8d8;
+    margin-bottom: 20px;
+  }
+  .Groups {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+  .change-pass-button {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    button {
+        transition: all 0.3s;
+        text-align: center;
+        cursor: pointer;
+        width: 70px;
+        height: 30px;
+        border-radius: 3px;
+        outline: none;
+        border: 2px solid #808383;
+        margin-top: 10px;
+        z-index: 1;
+        background-color: #fff;
+        &:hover {
+          outline: none;
+          transform: translateY(-3px);
+          box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        }
+      } 
+  }
+}
+
+@media (max-width: 450px) {
+    .change-pass {
+        .Groups {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            justify-items: center;
+          }
+    }
+  }

@@ -1,0 +1,184 @@
+.slide-2 {
+  margin: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // padding: 100px 0 100px 0;
+  // background-color: #6c757d;
+  text-align: center !important;
+  width: 100%;
+  .content-slide {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+    .test {
+      width: 100%;
+      height: 100%;
+      .content-slide-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 10px;
+        width: 100%;
+        img {
+          width: 40px;
+        }
+      }
+      .content-flex {
+        width: 100%;
+        .cate-slide {
+          // display: flex;
+          // gap: 5px;
+
+          .cate-slide-item {
+            &:hover {
+              box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;    
+              
+              transition: all 0.1s ease-in;
+              transform: translatey(-5px);
+            }
+            align-items: center;
+            cursor: pointer;
+            // background-color: #6aa6be;
+            padding: 10px;
+            width: 180px !important;
+            // height: 50px;    
+            border-radius: 5px;
+            a{  
+                // display: flex;
+                // flex-direction: column;
+                // align-items: center;
+                font-size: 16px;
+                text-decoration: none;
+                width: 100%;
+                
+                p {
+                  width: 100%;
+                  // font-size: 2px;
+                  color: black;
+                  font-weight: 500;
+                }
+                img {
+                  width: 100%;
+                }
+            }
+          }
+        }
+      }
+    }
+  }
+  .slick-slider {
+    .slick-arrow {
+      display: block !important;
+      transition: all 0.3s;
+      transition: transform 0.3s, opacity 0.3s, box-shadow 0.3s,
+        -webkit-transform 0.3s, -webkit-box-shadow 0.3s;
+      /* margin: 10px; */
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      // top: 60%;
+      // margin-top: 20px;
+      z-index: 20;
+      /* position: fixed; */
+    }
+  }
+
+  .slick-arrow::before {
+    font-size: 0;
+    color: red;
+    // background-color: none;
+  }
+  .slick-next {
+    right: 0;
+    top: 12%;
+    background: url("https://icons-for-free.com/iconfiles/png/512/arrow-131964784973444275.png")
+      0 0 / 100% no-repeat;
+    padding: 8px;
+    &:hover {
+      border-radius: 10px;
+      background-color: #fecb3a;
+    }
+  }
+
+  .slick-prev {
+    background: url("https://th.bing.com/th/id/R.757dcae10509bdbcbbbe7231f9cec8ab?rik=7RO2A7Du7jYBww&riu=http%3a%2f%2fpluspng.com%2fimg-png%2fleft-arrow-png-left-icon-1600.png&ehk=nQr%2fWbRJHtKEaV53ijq71OpNptgpG4FZxnChrIO0fBI%3d&risl=&pid=ImgRaw&r=0")
+      0 0 / 100% no-repeat;
+    left: 0;
+    top: 12%;
+    padding: 8px;
+    &:hover {
+      border-radius: 10px;
+      background-color: #fecb3a;
+    }
+  }
+
+  /* custom dot slide */
+  .slick-dots li {
+    // position: absolute;
+    // bottom: 25%;
+    // right: 15%;
+    // display: flex !important;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    top: -35px;
+  }
+  .slick-dots li button {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 0;
+    padding: 2px;
+    border: 3px solid #b1d5e2;
+  }
+  .slick-dots li button::before {
+    content: none;
+  }
+  .slick-dots .slick-active button {
+    background-color: #b1d5e2;
+  }
+}
+.img {
+  // max-width: 540px;
+  // max-height: 405px;
+  display: flex !important;
+  z-index: 0;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  // height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-attachment: fixed;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 450px) {
+  .slick-arrow {
+    display: none !important;
+  }
+  .slick-slider {
+    &:hover > .slick-arrow {
+      display: none !important;
+    }
+  }
+}
+@media screen and (max-width: 730px) {
+  .img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .img {
+    width: 100%;
+  }
+}
